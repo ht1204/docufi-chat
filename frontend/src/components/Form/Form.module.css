@@ -1,0 +1,48 @@
+.formContainer {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 2px dashed #3498db;
+}
+
+.formContainer h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.fileInput {
+  margin-bottom: 20px;
+}
+
+.fileInput input[type='file'] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.uploadButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.uploadButton:hover {
+  background-color: #2980b9;
+}
+
+.uploadButton:active {
+  transform: scale(0.98);
+}
